@@ -30,7 +30,9 @@ export default function Navbar() {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target='_blank'></GitHubButton>
+          <GitHubButton href={Bio.github} target='_blank'>
+            Github Profile
+          </GitHubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
