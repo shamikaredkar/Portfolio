@@ -1,15 +1,14 @@
 export const Bio = {
-  name: "Rishav Chanda",
+  name: "Shamika Redkar",
   roles: [
-    "Web Developer",
+    "Full Stack Developer",
     "iOS Developer",
-    "UI/UX Designer",
   ],
   description:
     "Hey there! I’m always up for a challenge and I love learning new things. Whether it’s tackling a tough problem or working on a project, I’m all about putting in the effort to deliver great results. I’m driven by a positive outlook and a growth mindset, and I’m excited to contribute, grow, and make a real difference.",
   github: "https://github.com/shamikaredkar",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "",
   linkedin: "https://www.linkedin.com/in/shamika-redkar/",
 };
 

@@ -1,11 +1,9 @@
 import React from "react";
 import { Bio } from "../../data/constants";
-import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
 import {
   ButtonContainer,
   GitHubButton,
-  MobileIcon,
   MobileLink,
   MobileMenu,
   Nav,

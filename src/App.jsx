@@ -7,6 +7,7 @@ import styled from "styled-components";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar.jsx";
+import Hero from "./components/Hero/Hero.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -37,6 +38,9 @@ function App() {
       <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
         <Router>
           <Navbar />
+          <Body>
+            <Hero />
+          </Body>
         </Router>
       </ThemeProvider>
     </>
