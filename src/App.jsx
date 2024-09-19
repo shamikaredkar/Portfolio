@@ -8,6 +8,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
+import Skills from "./components/Skills/Skills.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -40,6 +41,9 @@ function App() {
           <Navbar />
           <Body>
             <Hero />
+            <Wrapper>
+              <Skills />
+            </Wrapper>
           </Body>
         </Router>
       </ThemeProvider>
