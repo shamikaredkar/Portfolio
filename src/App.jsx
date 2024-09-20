@@ -1,14 +1,13 @@
 import { ThemeProvider } from "styled-components";
 import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from "./utils/Themes.js";
-import reactLogo from "./assets/react.svg";
 import { BrowserRouter as Router } from "react-router-dom";
 import styled from "styled-components";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Skills from "./components/Skills/Skills.jsx";
+import Experience from "./components/Experience/Experience.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -43,6 +42,7 @@ function App() {
             <Hero />
             <Wrapper>
               <Skills />
+              <Experience />
             </Wrapper>
           </Body>
         </Router>
