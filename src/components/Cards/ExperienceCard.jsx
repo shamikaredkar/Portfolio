@@ -19,6 +19,14 @@ const Description = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 99};
   margin-bottom: 10px;
+  padding: 10px; // Add padding to the description container
+  ul {
+    padding-left: 20px; // Add padding for bullet points (left indentation)
+    list-style-position: outside; // Ensure bullet points are outside the text
+  }
+  li {
+    margin-bottom: 10px; // Add space between bullet points
+  }
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
