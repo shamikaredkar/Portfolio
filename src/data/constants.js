@@ -1,3 +1,6 @@
+import iesoLogo from '../assets/ieso-logo.png';
+import cecLogo from '../assets/cec-logo.jpg';
+
 export const Bio = {
   name: "Shamika Redkar",
   roles: [
@@ -101,7 +104,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-1/359813329_755616459693470_6174820564144844121_n.png?stp=dst-png_s480x480&_nc_cat=111&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=_joe3UEXoOIQ7kNvgF84eIn&_nc_ht=scontent.fyzd1-2.fna&_nc_gid=AoqahyP5EXHTUYrjkpgueCN&oh=00_AYCCOk2xgQV3EMrZZDVM7AFw4IiuZlvXzHzcxXJbIdj2ag&oe=66F2A52C",
+    img: iesoLogo,
     role: "System Developer",
     company: "Independent Electricity Systems Operator",
     date: "Jan 2024 - Aug 2024",
@@ -119,7 +122,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: cecLogo,
     role: "iOS Development Mentor",
     company: "Canadian Education Council",
     date: "Jan 2023 - Jun 2023",

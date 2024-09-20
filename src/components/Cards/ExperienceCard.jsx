@@ -151,7 +151,13 @@ export default function ExperienceCard({ experience }) {
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience?.desc}</Span>}
+        {experience?.desc && (
+          <ul>
+            {experience.desc.split(". ").map(
+              (sentence, index) => sentence && <li key={index}>{sentence}.</li> // Add period back
+            )}
+          </ul>
+        )}
         {experience?.skills && (
           <>
             <br />
@@ -159,7 +165,7 @@ export default function ExperienceCard({ experience }) {
               <b>Skills:</b>
               <ItemWrapper>
                 {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
+                  <Skill key={index}>• {skill}</Skill>
                 ))}
               </ItemWrapper>
             </Skills>
