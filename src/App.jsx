@@ -10,6 +10,7 @@ import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails.jsx";
+import Education from "./components/Education/Education.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -50,7 +51,9 @@ function App() {
               openModal={openModal}
               setOpenModal={setOpenModal}
             ></Projects>
-            <Wrapper></Wrapper>
+            <Wrapper>
+              <Education />
+            </Wrapper>
             {openModal.state && (
               <ProjectDetails
                 openModal={openModal}

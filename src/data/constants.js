@@ -1,5 +1,6 @@
 import iesoLogo from '../assets/ieso-logo.png';
 import cecLogo from '../assets/cec-logo.jpg';
+import sheridanlogo from '../assets/sheridan-logo.png';
 
 export const Bio = {
   name: "Shamika Redkar",
@@ -142,7 +143,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: sheridanlogo,
     school: "Sheridan College",
     date: "Sep 2020 - Dec 2024",
     degree: "Honors Bachelor of Computer Science(Mobile Computing)",
