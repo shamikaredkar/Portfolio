@@ -12,6 +12,7 @@ import Projects from "./components/Projects/Projects.jsx";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails.jsx";
 import Education from "./components/Education/Education.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -56,6 +57,7 @@ function App() {
               <Education />
               <Contact />
             </Wrapper>
+            <Footer />
             {openModal.state && (
               <ProjectDetails
                 openModal={openModal}
