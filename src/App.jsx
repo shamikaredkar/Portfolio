@@ -9,6 +9,7 @@ import Hero from "./components/Hero/Hero.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
 import Projects from "./components/Projects/Projects.jsx";
+import ProjectDetails from "./components/ProjectDetails/ProjectDetails.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -49,6 +50,13 @@ function App() {
               openModal={openModal}
               setOpenModal={setOpenModal}
             ></Projects>
+            <Wrapper></Wrapper>
+            {openModal.state && (
+              <ProjectDetails
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            )}
           </Body>
         </Router>
       </ThemeProvider>
