@@ -1,18 +1,18 @@
 import React from "react";
 import { useState } from "react";
-import {
-  Container,
-  Wrapper,
-  Title,
-  Desc,
-  CardContainer,
-  ToggleButtonGroup,
-  ToggleButton,
-  Divider,
-} from "./ProjectsStyle";
-import ProjectCard from "../Cards/ProjectCards";
 import { projects } from "../../data/constants";
-export default function Projects() {
+import {
+  CardContainer,
+  Container,
+  Desc,
+  Divider,
+  Title,
+  ToggleButton,
+  ToggleButtonGroup,
+  Wrapper,
+} from "./ProjectStyle";
+import ProjectCard from "../Cards/ProjectCard";
+export default function Projects({ openModal, setOpenModal }) {
   const [toggle, setToggle] = useState("all");
 
   return (
@@ -20,8 +20,8 @@ export default function Projects() {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects. From web apps to games.
+          Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
@@ -48,20 +48,17 @@ export default function Projects() {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
+          {toggle === "games" ? (
             <ToggleButton
               active
-              value='android app'
-              onClick={() => setToggle("android app")}
+              value='games'
+              onClick={() => setToggle("games")}
             >
-              ANDROID APP'S
+              GAMES
             </ToggleButton>
           ) : (
-            <ToggleButton
-              value='android app'
-              onClick={() => setToggle("android app")}
-            >
-              ANDROID APP'S
+            <ToggleButton value='games' onClick={() => setToggle("games")}>
+              GAMES
             </ToggleButton>
           )}
           <Divider />

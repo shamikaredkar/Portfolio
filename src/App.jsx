@@ -8,6 +8,7 @@ import Navbar from "./components/NavBar/Navbar.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Skills from "./components/Skills/Skills.jsx";
 import Experience from "./components/Experience/Experience.jsx";
+import Projects from "./components/Projects/Projects.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -44,6 +45,10 @@ function App() {
               <Skills />
               <Experience />
             </Wrapper>
+            <Projects
+              openModal={openModal}
+              setOpenModal={setOpenModal}
+            ></Projects>
           </Body>
         </Router>
       </ThemeProvider>
