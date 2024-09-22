@@ -1,6 +1,14 @@
 import iesoLogo from '../assets/ieso-logo.png';
 import cecLogo from '../assets/cec-logo.jpg';
 import sheridanlogo from '../assets/sheridan-logo.png';
+import liftlog from '../assets/liftlog.png'
+import voicebridge from '../assets/voicebridge.png'
+import tictactoe from '../assets/tictactoe.png'
+import blog from '../assets/blog.gif'
+import slimesprint from '../assets/slimesprint.gif'
+import minesweeper from '../assets/minesweeper.gif'
+import kmeans from '../assets/kmeans.png'
+import stickynotes from '../assets/stickynotes.png'
 
 export const Bio = {
   name: "Shamika Redkar",
@@ -157,7 +165,7 @@ export const projects = [
     description:
       "LiftLog is a comprehensive fitness application designed to assist users in generating personalized workouts that fit their goals. With a user-friendly interface and an integrated chatbot named GymBro, LiftLog offers personalized fitness advice, workout plan generation, and the ability to export workout routines as PDF files for offline usage.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      liftlog,
     tags: [
       "React Js",
       "Javascript",
@@ -176,7 +184,7 @@ export const projects = [
     description:
       "VoiceBridge is a powerful transcription and translation tool designed to transcribe and translate voice inputs in real time. Utilizing advanced AI models like Whisper-tiny, VoiceBridge ensures high accuracy for both transcription and translation tasks.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      voicebridge,
     tags: [
       "React Js", 
       "OpenAI Whisper-tiny", 
@@ -194,7 +202,7 @@ export const projects = [
     description:
       "This is a simple yet engaging implementation of the classic Tic-Tac-Toe game built using React. The game allows two players to compete against each other, with the app tracking the game state and determining the winner. It includes features like tracking player moves, displaying the game board, and showing the winner or draw status.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      tictactoe,
     tags: [
       "React Js",
       "Html",
@@ -211,7 +219,7 @@ export const projects = [
     description:
       "This project is a personal blog website created to document my Software Engineering journey. It features an admin dashboard for managing posts, user authentication, and a responsive design. The blog allows me to share insights, record my learning path, and provide valuable content related to software development and programming.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+      blog,
     tags: ["Node Js", "Express Js", "EJS", "MongoDB", "Html", "CSS"],
     category: "web app",
     github: "https://github.com/shamikaredkar/Nodejs-Blog",
@@ -223,7 +231,7 @@ export const projects = [
     description:
       "This project is a fun and interactive game called Slime Sprint, implemented in JavaScript using the HTML5 Canvas. The objective of the game is to navigate your slime character through various obstacles and get a high score.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      slimesprint,
     tags: ["Html Canvas", "CSS", "Vanilla Javascript", ],
     category: "games",
     github: "https://github.com/shamikaredkar/SlimeSprint",
@@ -235,7 +243,7 @@ export const projects = [
     description:
       "This project is a classic Minesweeper game implemented in Python using the Pygame library. The objective of the game is to clear a rectangular board containing hidden 'mines' or bombs without detonating any of them, with help from clues about the number of neighboring mines in each field. You can flag a tile if you think it could have a mine under it.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+      minesweeper,
     tags: ["Python", "Pygame",],
     category: "games",
     github: "https://github.com/shamikaredkar/Minesweeper",
@@ -247,7 +255,7 @@ export const projects = [
     description:
       "The K-Means Visualizer is a web application that helps users understand and visualize the K-Means clustering algorithm. It provides an interactive platform to experiment with different numbers of data points and clusters, visualizing how the algorithm iteratively updates centroids and assigns data points to clusters.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      kmeans,
     tags: ["Vanilla Javascript", "Bulma", "Html", "CSS"],
     category: "web app",
     github: "https://github.com/shamikaredkar/KMeans-Algorithm-Visualizer",
@@ -260,7 +268,7 @@ export const projects = [
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      stickynotes,
     tags: ["Vanilla Javascript", "Html", "CSS", "Local Storage"],
     category: "web app",
     github: "https://github.com/shamikaredkar/Sticky-Notes",
