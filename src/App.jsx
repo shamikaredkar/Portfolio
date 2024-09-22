@@ -11,6 +11,7 @@ import Experience from "./components/Experience/Experience.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails.jsx";
 import Education from "./components/Education/Education.jsx";
+import Contact from "./components/contact/Contact.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -53,6 +54,7 @@ function App() {
             ></Projects>
             <Wrapper>
               <Education />
+              <Contact />
             </Wrapper>
             {openModal.state && (
               <ProjectDetails
