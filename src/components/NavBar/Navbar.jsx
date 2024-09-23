@@ -12,6 +12,10 @@ import {
   NavLink,
   NavLogo,
 } from "./NavbarStyledComponents";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+import { SocialMediaIcon } from "../About/AboutStyle";
+import { GitHub } from "@mui/icons-material";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -19,7 +23,9 @@ export default function Navbar() {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo>Shamika Redkar</NavLogo>
+        <SocialMediaIcon href={Bio.linkedin} target='display'>
+          <LinkedInIcon />
+        </SocialMediaIcon>
         <NavItems>
           <NavLink href='#about'>About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
@@ -29,7 +35,7 @@ export default function Navbar() {
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target='_blank'>
-            Github Profile
+            <GitHub /> <span> </span> Github
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (
