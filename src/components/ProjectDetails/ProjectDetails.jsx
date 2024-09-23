@@ -55,7 +55,7 @@ const Date = styled.div`
 const Desc = styled.div`
   font-size: 16px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_secondary};
   margin: 8px 6px;
   @media only screen and (max-width: 600px) {
     font-size: 14px;
@@ -156,7 +156,7 @@ const Button = styled.a`
   text-align: center;
   font-size: 16px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.white};
   padding: 12px 16px;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.primary};
@@ -164,7 +164,7 @@ const Button = styled.a`
     dull &&
     `
         background-color: ${theme.bgLight};
-        color: ${theme.text_secondary};
+        color: ${theme.white};
         &:hover {
             background-color: ${({ theme }) => theme.bg + 99};
         }
@@ -236,10 +236,10 @@ export default function ProjectDetails({ openModal, setOpenModal }) {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target='new'>
-              View Code
+              Github
             </Button>
-            <Button href={project?.live} target='new'>
-              View Live App
+            <Button dull href={project?.live} target='new'>
+              Live
             </Button>
           </ButtonGroup>
         </Wrapper>

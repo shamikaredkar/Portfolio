@@ -35,11 +35,11 @@ export default function Projects({ openModal, setOpenModal }) {
               value='web app'
               onClick={() => setToggle("web app")}
             >
-              WEB APP'S
+              WEB
             </ToggleButton>
           ) : (
             <ToggleButton value='web app' onClick={() => setToggle("web app")}>
-              WEB APP'S
+              WEB
             </ToggleButton>
           )}
           <Divider />
@@ -71,6 +71,16 @@ export default function Projects({ openModal, setOpenModal }) {
               onClick={() => setToggle("machine learning")}
             >
               MACHINE LEARNING
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === "ios" ? (
+            <ToggleButton active value='ios' onClick={() => setToggle("ios")}>
+              iOS
+            </ToggleButton>
+          ) : (
+            <ToggleButton value='ios' onClick={() => setToggle("ios")}>
+              iOS
             </ToggleButton>
           )}
         </ToggleButtonGroup>

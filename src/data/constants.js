@@ -264,9 +264,8 @@ export const projects = [
   {
     id: 5,
     title: "Sticky Notes App",
-    date: "Jun 2021",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "The Sticky Notes App is a simple web application that allows users to create, edit, and delete sticky notes. The notes are stored locally in the browser's local storage, so they persist even after the browser is closed or the page is refreshed.",
     image:
       stickynotes,
     tags: ["Vanilla Javascript", "Html", "CSS", "Local Storage"],

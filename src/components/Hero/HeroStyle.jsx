@@ -182,7 +182,7 @@ export const ResumeButton = styled.a`
   font-weight: 600;
   transition: all 0.2s ease-in-out !important;
   background: none; /* Remove gradient */
-  border: 2px solid ${({ theme }) => theme.white}; /* Plain white border */
+  border: 1px solid ${({ theme }) => theme.white}; /* Plain white border */
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
 
   &:hover {

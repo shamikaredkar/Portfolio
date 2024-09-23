@@ -42,7 +42,7 @@ export default function Hero() {
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton href={Bio.resume} target='display'>
-              Check Resume
+              Resume
             </ResumeButton>
           </HeroLeftContainer>
 

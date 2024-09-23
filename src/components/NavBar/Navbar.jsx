@@ -35,7 +35,7 @@ export default function Navbar() {
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target='_blank'>
-            <GitHub /> <span> </span> Github
+            <GitHub style={{ marginRight: "8px" }} /> Github
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (
