@@ -4,7 +4,6 @@ import { projects } from "../../data/constants";
 import {
   CardContainer,
   Container,
-  Desc,
   Divider,
   Title,
   ToggleButton,
@@ -19,10 +18,6 @@ export default function Projects({ openModal, setOpenModal }) {
     <Container id='projects'>
       <Wrapper>
         <Title>Projects</Title>
-        <Desc>
-          I have worked on a wide range of projects. From web apps to games.
-          Here are some of my projects.
-        </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value='all' onClick={() => setToggle("all")}>
