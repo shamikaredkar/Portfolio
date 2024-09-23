@@ -61,7 +61,7 @@ const ContactForm = styled.form`
   flex-direction: column;
   background-color: ${({ theme }) => theme.card};
   padding: 32px;
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
@@ -81,7 +81,7 @@ const ContactInput = styled.input`
   outline: none;
   font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 12px 16px;
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
@@ -102,34 +102,25 @@ const ContactInputMessage = styled.textarea`
   }
 `;
 
-const ContactButton = styled.input`
+export const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
+  background: none; /* Remove gradient */
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
-  border: none;
+  border: 2px solid ${({ theme }) => theme.white}; /* White border */
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
+
 export default function Contact() {
   //hooks
   const [open, setOpen] = React.useState(false);

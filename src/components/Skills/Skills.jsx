@@ -62,7 +62,7 @@ const Skill = styled.div`
   background: ${({ theme }) => theme.card};
   border: 0.1px solid #854ce6;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  border-radius: 16px;
+  border-radius: 10px;
   padding: 18px 36px;
   @media (max-width: 768px) {
     max-width: 400px;
@@ -95,7 +95,7 @@ const SkillItem = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 12px 16px;
   display: flex;
   align-items: center;
