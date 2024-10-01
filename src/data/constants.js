@@ -295,4 +295,17 @@ export const projects = [
     github: "https://github.com/shamikaredkar/NextBinge",
     webapp: "https://nextbinge.streamlit.app/",
   },
+{
+  id: 7,
+  title: "TripWise",
+  description:
+    "TripWise is a comprehensive travel management app designed to assist users in planning, organizing, and managing their trips. It provides personalized recommendations, real-time travel data, budgeting tools, and itinerary management. The app integrates with Geoapify to explore destinations and helps users create detailed travel plans.",
+  image: "", // Replace this with your actual image path or variable
+  tags: ["iOS", "Swift", "Geoapify", "MapKit", "OpenAI"],
+  category: "ios",
+  github: "https://github.com/koyapratham/TripWise", // Replace with your actual GitHub URL
+  webapp: "", // If you have a web app link, include it here
+},
+
+  
 ];
