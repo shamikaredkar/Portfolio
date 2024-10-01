@@ -87,7 +87,7 @@ export const skills = [
     ],
   },
   {
-    title: "Databases",
+    title: "Cloud & Databases",
     skills: [
       {
         name: "MySQL",
@@ -101,6 +101,10 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+      name: "AWS",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    },
     ],
   },
   {
