@@ -127,7 +127,7 @@ export const experiences = [
   {
     id: 0,
     img: iesoLogo,
-    role: "System Developer",
+    role: "Software Developer",
     company: "Independent Electricity Systems Operator",
     date: "Jan 2024 - Aug 2024",
     desc: "Designed and deployed a machine learning pipeline in Oracle using Python to segment 100k energy consumption records from Oracle Autonomous Database. Analyzed data using time-series decomposition, categorical encoding, and PCA to improve segmentation accuracy and handle temporal and categorical features. Validated existing DRC (Distribution Rate Class) types by segmenting customers based on energy consumption values, confirming that the algorithm-driven segments matched the company’s predefined DRC types. Applied Hierarchical Clustering with Ward’s linkage to further segment customers within each DRC type, identifying sub-segments revealing behaviors like peak consumption and time-of-use patterns.",
